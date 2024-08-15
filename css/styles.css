@@ -1,0 +1,197 @@
+/*CUSTOM FONT*/
+body {
+    font-family: Consolas, Monaco, monospace;
+}
+
+/* NAVBAR */
+
+.logo-aguila{
+    background-color: #dc3545;
+    padding: 5px 12px 6px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+
+.grid-footer{
+    background-color: #212529;
+    display: grid;
+    grid-template-columns: calc(1rem * .25) 1fr calc(1rem * .25);
+    grid-template-rows: 80px 60px 80px;
+}
+
+.grid-footer h2{
+    font-size: 1.8rem;
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cprght{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cprght p{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+/* HEAD OF THE SITE */
+
+.cont-head{
+    background-color:#212529c4;
+    display: grid;
+    grid-template-columns: calc(1rem * .25) 1fr 1fr calc(1rem * .25);
+}
+
+.cont-head aside{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: calc(1rem*3);
+}
+
+.cont-head h1{
+    color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.cont-head p{
+    color: #adb5bd;
+}
+
+.cont-prof{
+    grid-column: 3/4;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    margin: calc(1rem*3);
+}
+
+#img-prof{
+    height: 100%;
+    width: calc(100% - 68px);
+}
+
+/* REACH */
+
+.cont-reach{
+    background-color:#212529c4;
+    display: grid;
+    grid-template-columns: calc(1rem * .25) 1fr 1fr calc(1rem * .25);
+/*     border-bottom: calc(1rem * .25) solid #dc3545; */
+}
+
+.reach-left{
+    grid-column: 2/3;
+    margin: calc(1rem*3);
+}
+
+.reach-left h2{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.reach-right{
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: calc(1rem*3);
+}
+
+.icon-reach{
+    width: 75px;
+    height: 75px;
+}
+
+/* PREVIOUS PROJECTS */
+
+.prev-project{
+    display: grid;
+    grid-template-columns: calc(1rem * .25) 1fr calc(1rem * .25);
+    background-color: #212529;
+}
+
+.pp-container{
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: calc(1rem*3);
+}
+
+.prev-project h3{
+    display: inline;
+    font-size: 2.2rem;
+    color: #fff;
+    white-space: nowrap;
+    margin-right: 3rem;
+}
+
+.line{
+    display: inline-block;
+    background-color: #dc3545;
+    width: 100%;
+    height: calc(2.2rem * 1/8);
+}
+
+/* PROJECT DISPLAY */
+
+.project-display{
+    background-color:#212529c4;
+}
+
+.link-card{
+    color: #fff;
+}
+
+.link-card:hover{
+    color: #fff;
+}
+
+/* MEDIA MD */
+
+@media screen and (max-width: 992px) {
+    .grid-footer h2{
+        font-size: 1.3rem;
+    }
+    .cprght p{
+        font-size: 0.8rem;
+    }
+}
+
+/* MEDIA SM */
+
+@media screen and (max-width: 576px) {
+    .grid-footer{
+        grid-template-rows: 100px 60px 80px;
+    }
+    .grid-footer h2{
+        font-size: 1.1rem;
+    }
+    .icon-single{
+        width: 40px;
+        height: 40px;
+    }
+}
