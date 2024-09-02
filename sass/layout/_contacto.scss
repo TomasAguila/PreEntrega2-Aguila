@@ -1,0 +1,43 @@
+.contact-main {
+    background-color: #212529f3;
+    .contact-reach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 2rem;
+        h1{
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    .deal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 3rem 3rem 0;
+        grid-template-rows: 1fr;
+        padding-bottom: 100px;
+        h4{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            align-self: center;
+            margin-right: 10%;
+        }
+        .contact-img-flex {
+            display: flex;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            justify-content: center;
+            align-items: center;
+            #handshake {
+                width: 750px;
+                height: 500px;
+            }
+        }
+    }
+}
+
+
+
+

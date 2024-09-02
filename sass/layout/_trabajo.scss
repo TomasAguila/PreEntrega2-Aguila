@@ -1,0 +1,77 @@
+.work-bckgnd-1 {
+    background-color: #212529f3;
+}
+.work-bckgnd-2 {
+    background-color: #212529;
+}
+.p-desc {
+    display: grid;
+    grid-template-columns:  501px 1fr ;
+    padding: 3rem 3rem;
+    #craft-lab {
+        grid-column: 1/2;
+        border-radius: 5px;
+    }
+    .p-desc-text {
+        grid-column: 2/3;
+        margin-left: 2rem;
+        h1{
+            font-size: 3rem;
+            grid-column: 2/3;
+        }
+        p{
+            font-size: 1.3rem;
+            grid-column: 2/3;
+        }
+    }
+}
+.proj-desc-cont {
+    display: grid;
+    grid-template-columns: 501px 1fr;
+    grid-template-rows: repeat(7, auto);
+    padding: 3rem 3rem;
+    gap: 1rem;
+    .p-method-item {
+        grid-column: 1/2;
+            h4{
+                font-size: 2.5rem;
+        color: #fff;
+        padding: 1rem 0;
+        }
+        h2{
+            font-size: 2.7rem;
+        }
+    }  
+    .p-desc-item {
+        grid-column: 2 / 3;
+        p{
+            font-size: 1.3rem;
+            padding: 1rem 0;
+        }
+    }
+}
+.proj-desc-cont-2 {
+    display: grid;
+    grid-template-columns: 501px 1fr;
+    grid-template-rows: repeat(8, auto);
+    padding: 3rem 3rem;
+    gap: 1rem;
+    .p-method-item {
+        grid-column: 1/2;
+            h4{
+                font-size: 2.5rem;
+        color: #fff;
+        padding: 1rem 0;
+    }
+    h2{
+        font-size: 43.2px;
+    }
+    }    
+    .p-desc-item {
+        grid-column: 2/ 3;
+        p{
+            font-size: 1.3rem;
+            padding: 1rem 0;
+        }
+    }
+}

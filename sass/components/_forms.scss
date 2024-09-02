@@ -1,0 +1,31 @@
+.form-wide {
+    display: flex;
+    justify-content: center;
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        .contact-label {
+            color: #fff;
+            font-size: 2rem;
+            padding: 10px 0;
+            font-weight: 600;
+        }
+        .form-box {
+            padding: .7rem;
+            font-family: Consolas, Monaco, monospace;
+        }
+        .text-area {
+            height: 12rem;
+            resize: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+

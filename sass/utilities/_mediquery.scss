@@ -1,0 +1,660 @@
+@media screen and (max-width:1500px) {
+    #video {
+        width: 1000px;
+        height: 563px;
+    }
+
+    .contact-main {
+
+        .contact-reach,
+        .deal {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p,
+            h4 {
+                font-size: 2rem;
+            }
+
+            .contact-img-flex {
+                #handshake {
+                    width: 500px;
+                    height: 333px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .cont-head {
+        aside {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .cont-reach {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        a {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+
+        .reach-right {
+            .bi {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+
+    .p-desc,
+    .proj-desc-cont,
+    .proj-desc-cont-2 {
+        grid-template-columns: 350px 1fr;
+        padding: 3rem 1rem;
+
+        #craft-lab {
+            width: 350px;
+            height: 200px;
+        }
+
+        .p-desc-text,
+        .p-desc-item,
+        .p-method-item {
+            h1 {
+                font-size: 32px;
+            }
+
+            h4,
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1158px) {
+    .cont-head {
+        aside {
+            h1 {
+                font-size: 2.7rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        .cont-prof {
+            height: fit-content;
+            width: fit-content;
+        }
+
+        #img-prof {
+            width: 100%;
+        }
+    }
+
+    .cont-reach {
+        h2 {
+            font-size: 2.2rem;
+        }
+
+        a {
+            p {
+                font-size: 1.2rem;
+            }
+        }
+
+        .reach-right {
+            .bi {
+                width: 65px;
+                height: 65px;
+            }
+        }
+    }
+
+    .abt-cont {
+        .flex-abt {
+            h1 {
+                font-size: 3rem;
+            }
+        }
+
+        p,
+        a {
+            font-size: 1.3rem;
+        }
+    }
+
+    .reg-bckgnd {
+        .reg-head {
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1150px) {
+    #video {
+        width: 700px;
+        height: 422px;
+    }
+
+    .tab-content {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .proj-desc-cont,
+    .proj-desc-cont-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 957px) {
+    .cont-head {
+        aside {
+            margin: 3rem 1rem;
+
+            h1 {
+                font-size: 2.4rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .cont-prof {
+            margin: 3rem 1rem;
+        }
+    }
+
+    .cont-reach {
+        padding-bottom: 3rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        a {
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .reach-left {
+            margin: 0 0 0 1rem;
+        }
+
+        .reach-right {
+            .bi {
+                width: 65px;
+                height: 65px;
+            }
+        }
+    }
+
+    .grid-footer {
+        .footer-icons {
+            .bi {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+
+        }
+    }
+
+    .abt-cont {
+        .flex-abt {
+            padding-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            margin-top: 4rem;
+        }
+
+        #video {
+            width: 600px;
+            height: 338px;
+            margin-bottom: 3rem;
+        }
+
+        p,
+        a {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+    }
+
+    .contact-main {
+
+        .contact-reach,
+        .deal {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p,
+            h4 {
+                font-size: 1rem;
+            }
+
+            .contact-img-flex {
+                #handshake {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .form-wide {
+        .form-container {
+            width: 250px;
+
+            .contact-label {
+                font-size: 1rem;
+                padding: 7px 0;
+            }
+
+            .form-box {
+                padding: .5rem;
+            }
+
+            .text-area {
+                height: 9rem;
+            }
+        }
+
+        .btn-submit {
+            font-size: 1rem;
+        }
+    }
+    .reg-bckgnd{
+        .reg-head{
+            margin: 0 1rem;
+            h1{
+                font-size: 2rem;
+                text-align: center;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:824px) {
+    .cont-head {
+        aside {
+            margin: 0 0 0 1rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: .8rem
+        }
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .cont-reach {
+        .reach-left {
+            margin: 0 0 0 1rem;
+
+            h2 {
+                margin-bottom: 1rem;
+            }
+
+            .btn {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .reach-right {
+            margin: 0 1rem;
+
+            .icon-reach {
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+
+    .p-desc-text {
+        p {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .prev-project {
+        display: none;
+    }
+
+    .project-display {
+        display: none;
+    }
+
+    #video {
+        width: 410px;
+        height: 231px;
+    }
+
+    .cont-head {
+        padding-bottom: 100px;
+    }
+
+    .cont-reach {
+        padding-bottom: 100px;
+    }
+
+    .contact-main {
+        .deal {
+            margin: 0 1rem;
+            padding: 0;
+            display: flex;
+
+            h4 {
+                margin: 0;
+                padding-bottom: 5rem;
+                text-align: justify;
+            }
+
+            .contact-img-flex {
+                display: none;
+
+                #handshake {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:694px) {
+    .cont-head {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 0 1rem;
+
+        aside {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin: 0;
+        }
+
+        .cont-prof {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            text-align: justify;
+        }
+
+        p {
+            font-size: .9rem;
+            text-align: justify;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .cont-reach {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding: 0 1rem;
+
+        .reach-left {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin: 0;
+
+            h2 {
+                text-align: justify;
+            }
+        }
+
+        .reach-right {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin: 2rem 0;
+            justify-content: space-around;
+        }
+    }
+
+    .grid-footer {
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        .footer-icons {
+            .bi {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        .cprght {
+            p {
+                font-size: .6rem;
+            }
+
+            .bi {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+
+    #video {
+        display: none;
+    }
+
+    .p-desc {
+        grid-template-columns: 200px 1fr;
+        padding: 3rem 1rem;
+
+        #craft-lab {
+            width: 200px;
+            height: 114px;
+        }
+
+        .p-desc-text {
+            h1 {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:475px) {
+    .cont-head {
+        aside {
+            h1 {
+                font-size: 1.4rem;
+            }
+
+            p {
+                font-size: .7rem;
+            }
+        }
+
+        .cont-prof {
+            height: 1fr;
+            width: 100%;
+            margin: 3rem 0;
+            padding: 0;
+
+            #img-prof {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+
+    .cont-reach {
+        .reach-left {
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+
+        .reach-right {
+            .icon-reach {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    .prev-project {
+        display: none;
+    }
+
+    .grid-footer {
+        padding-top: 10rem;
+        grid-template-rows: repeat(3, auto) 20px;
+
+        h2 {
+            font-size: 1rem;
+        }
+    }
+
+    .abt-cont {
+        padding: 1rem;
+
+        .flex-abt {
+            margin: 0;
+            padding: 0;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p,
+            a {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .bot-abt {
+        padding: 1rem;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .p-desc {
+        padding: 2rem .5rem;
+        grid-template-columns: 120px 1fr;
+
+        .p-desc-text {
+            margin: 0 0 0 .7rem;
+
+            h1 {
+                font-size: .7rem;
+            }
+        }
+
+        #craft-lab {
+            width: 120px;
+            height: 69px;
+        }
+    }
+
+    .contact-main {
+
+        .contact-reach,
+        .deal {
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p,
+            h4 {
+                font-size: .7rem;
+            }
+        }
+    }
+
+    .form-wide {
+        .form-container {
+            width: 200px;
+
+            .contact-label {
+                font-size: .7rem;
+                padding: 5px 0;
+            }
+
+            .form-box {
+                padding: .3rem;
+            }
+
+            .text-area {
+                height: 7rem;
+            }
+        }
+
+        .btn-submit {
+            font-size: .7rem;
+        }
+    }
+    .reg-bckgnd{
+        .reg-head{
+            h1{
+                font-size: 1.6rem;
+            }
+            p{
+                font-size: .7rem;
+            }
+        }
+    }
+}
