@@ -9,12 +9,12 @@
         .contact-reach,
         .deal {
             h1 {
-                font-size: 3rem;
+                font-size: nth($font, 2);
             }
 
             p,
             h4 {
-                font-size: 2rem;
+                font-size: nth($font, 4);
             }
 
             .contact-img-flex {
@@ -31,23 +31,23 @@
     .cont-head {
         aside {
             h1 {
-                font-size: 3rem;
+                font-size: nth($font,2 );
             }
 
             p {
-                font-size: 1.5rem;
+                font-size: nth($font, 6);
             }
         }
     }
 
     .cont-reach {
         h2 {
-            font-size: 2.5rem;
+            font-size: nth($font, 3);
         }
 
         a {
             p {
-                font-size: 1.5rem;
+                font-size: nth($font, 6);
             }
         }
 
@@ -74,16 +74,16 @@
         .p-desc-item,
         .p-method-item {
             h1 {
-                font-size: 32px;
+                font-size: nth($font, 4);
             }
 
             h4,
             h2 {
-                font-size: 25px;
+                font-size: nth($font, 6);
             }
 
             p {
-                font-size: .8rem;
+                font-size: nth($font, 8);
             }
         }
     }
@@ -93,11 +93,11 @@
     .cont-head {
         aside {
             h1 {
-                font-size: 2.7rem;
+                font-size: nth($font,3 );
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: nth($font, 5);
             }
         }
 
@@ -113,12 +113,12 @@
 
     .cont-reach {
         h2 {
-            font-size: 2.2rem;
+            font-size: nth($font, 4);
         }
 
         a {
             p {
-                font-size: 1.2rem;
+                font-size: nth($font, 7);
             }
         }
 
@@ -133,24 +133,24 @@
     .abt-cont {
         .flex-abt {
             h1 {
-                font-size: 3rem;
+                font-size: nth($font, 2);
             }
         }
 
         p,
         a {
-            font-size: 1.3rem;
+            font-size: nth($font, 6);
         }
     }
 
     .reg-bckgnd {
         .reg-head {
             h1 {
-                font-size: 3rem;
+                font-size: nth($font, 2);
             }
 
             p {
-                font-size: 2rem;
+                font-size: nth($font, 4);
             }
         }
     }
@@ -164,7 +164,7 @@
 
     .tab-content {
         h2 {
-            font-size: 2rem;
+            font-size: nth($font, 4);
         }
     }
 
@@ -180,11 +180,11 @@
             margin: 3rem 1rem;
 
             h1 {
-                font-size: 2.4rem;
+                font-size: nth($font, 3);
             }
 
             p {
-                font-size: 1rem;
+                font-size: nth($font, 7);
             }
         }
 
@@ -197,12 +197,12 @@
         padding-bottom: 3rem;
 
         h2 {
-            font-size: 1.8rem;
+            font-size: nth($font,5 );
         }
 
         a {
             p {
-                font-size: 1rem;
+                font-size: nth($font,7 );
             }
         }
 
@@ -227,7 +227,7 @@
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: nth($font, 6);
 
         }
     }
@@ -238,7 +238,7 @@
         }
 
         h1 {
-            font-size: 2.6rem;
+            font-size: nth($font,3 );
             margin-top: 4rem;
         }
 
@@ -250,7 +250,7 @@
 
         p,
         a {
-            font-size: 1.1rem;
+            font-size: nth($font, 7);
             margin: 0;
         }
     }
@@ -260,12 +260,12 @@
         .contact-reach,
         .deal {
             h1 {
-                font-size: 2rem;
+                font-size: nth($font, 4);
             }
 
             p,
             h4 {
-                font-size: 1rem;
+                font-size: nth($font, 7);
             }
 
             .contact-img-flex {
@@ -282,7 +282,7 @@
             width: 250px;
 
             .contact-label {
-                font-size: 1rem;
+                font-size: nth($font, 7);
                 padding: 7px 0;
             }
 
@@ -296,18 +296,18 @@
         }
 
         .btn-submit {
-            font-size: 1rem;
+            font-size: nth($font, 7);
         }
     }
     .reg-bckgnd{
         .reg-head{
             margin: 0 1rem;
             h1{
-                font-size: 2rem;
+                font-size: nth($font,4 );
                 text-align: center;
             }
             p{
-                font-size: 1rem;
+                font-size: nth($font, 7);
             }
         }
     }
@@ -320,16 +320,16 @@
         }
 
         h1 {
-            font-size: 1.5rem;
+            font-size: nth($font, 6);
         }
 
         p {
-            font-size: .8rem
+            font-size: nth($font, 8);
         }
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: nth($font, 6);
     }
 
     .cont-reach {
@@ -428,12 +428,12 @@
         }
 
         h1 {
-            font-size: 1.8rem;
+            font-size: nth($font, 5);
             text-align: justify;
         }
 
         p {
-            font-size: .9rem;
+            font-size: nth($font, 8);
             text-align: justify;
             margin-bottom: 2rem;
         }
@@ -465,7 +465,7 @@
 
     .grid-footer {
         h2 {
-            font-size: 1.2rem;
+            font-size: nth($font, 7);
         }
 
         .footer-icons {
@@ -477,7 +477,7 @@
 
         .cprght {
             p {
-                font-size: .6rem;
+                font-size: nth($font, 9);
             }
 
             .bi {
@@ -502,7 +502,7 @@
 
         .p-desc-text {
             h1 {
-                font-size: 1rem;
+                font-size: nth($font, 7);
             }
         }
     }
@@ -513,11 +513,11 @@
     .cont-head {
         aside {
             h1 {
-                font-size: 1.4rem;
+                font-size: nth($font, 6);
             }
 
             p {
-                font-size: .7rem;
+                font-size: nth($font, 9);
             }
         }
 
@@ -537,11 +537,11 @@
     .cont-reach {
         .reach-left {
             h2 {
-                font-size: 1.4rem;
+                font-size: nth($font, 6);
             }
 
             p {
-                font-size: .9rem;
+                font-size: nth($font, 8);
             }
         }
 
@@ -562,7 +562,7 @@
         grid-template-rows: repeat(3, auto) 20px;
 
         h2 {
-            font-size: 1rem;
+            font-size: nth($font, 7);
         }
     }
 
@@ -574,12 +574,12 @@
             padding: 0;
 
             h1 {
-                font-size: 2rem;
+                font-size: nth($font,4 );
             }
 
             p,
             a {
-                font-size: 1rem;
+                font-size: nth($font, 7);
             }
         }
     }
@@ -588,7 +588,7 @@
         padding: 1rem;
 
         p {
-            font-size: 1rem;
+            font-size: nth($font, 7);
         }
     }
 
@@ -600,7 +600,7 @@
             margin: 0 0 0 .7rem;
 
             h1 {
-                font-size: .7rem;
+                font-size: nth($font,9 );
             }
         }
 
@@ -615,12 +615,12 @@
         .contact-reach,
         .deal {
             h1 {
-                font-size: 1.6rem;
+                font-size: nth($font, 5);
             }
 
             p,
             h4 {
-                font-size: .7rem;
+                font-size: nth($font, 8);
             }
         }
     }
@@ -630,7 +630,7 @@
             width: 200px;
 
             .contact-label {
-                font-size: .7rem;
+                font-size: nth($font, 8);
                 padding: 5px 0;
             }
 
@@ -644,16 +644,16 @@
         }
 
         .btn-submit {
-            font-size: .7rem;
+            font-size: nth($font, 8);
         }
     }
     .reg-bckgnd{
         .reg-head{
             h1{
-                font-size: 1.6rem;
+                font-size: nth($font,5 );
             }
             p{
-                font-size: .7rem;
+                font-size: nth($font, 8);
             }
         }
     }

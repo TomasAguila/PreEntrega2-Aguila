@@ -1,0 +1,28 @@
+$color-principal:#212529;
+$color-secundario:#212529f3;
+$color-acento:#dc3545;
+$color-titulos:#fff;
+$color-parrafo:#adb5bd;
+$font: 4.5rem, 3rem, 2.5rem, 2rem, 1.8rem, 1.4rem, 1rem, .8rem, .6rem;
+%method{
+    font-size: nth($font, 3);
+    color: $color-titulos;
+    padding: 1rem 0;
+}
+%desc-item{
+    grid-column: 2 / 3;
+}
+%desc-item-p{
+    font-size: nth($font, 6);
+    padding: 1rem 0;
+}
+@mixin flex($flex, $direction, $justify){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+@mixin grid($grid, $template-col, $template-row){
+    display: $grid;
+    grid-template-columns: $template-col;
+    grid-template-rows: $template-row;
+}

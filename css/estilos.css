@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+.proj-desc-cont-2 .p-method-item h4, .proj-desc-cont .p-method-item h4 {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.proj-desc-cont-2 .p-desc-item, .proj-desc-cont .p-desc-item {
+  grid-column: 2/3;
+}
+
+.proj-desc-cont-2 .p-desc-item p, .proj-desc-cont .p-desc-item p {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
 body {
   font-family: Consolas, Monaco, monospace;
 }
@@ -25,7 +40,7 @@ p {
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #fff;
 }
 
@@ -47,7 +62,7 @@ a {
   border-radius: 5px;
   color: #fff;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: -moz-fit-content;
   width: fit-content;
   margin: 2rem 0 5rem;
@@ -67,6 +82,7 @@ a {
   background-color: rgba(33, 37, 41, 0.9529411765);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: "";
 }
 .cont-head aside {
   grid-column: 1/2;
@@ -84,8 +100,9 @@ a {
 }
 .cont-head .cont-prof {
   grid-column: 2/3;
-  display: flex;
   justify-self: center;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   height: 450px;
   width: 450px;
@@ -100,6 +117,7 @@ a {
   background-color: rgba(33, 37, 41, 0.9529411765);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: "";
 }
 .cont-reach .reach-left {
   grid-column: 1/2;
@@ -110,22 +128,24 @@ a {
 }
 .cont-reach .reach-right {
   grid-column: 2/3;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 3rem;
 }
 
 .prev-project {
   display: grid;
   grid-template-columns: 0.25rem 1fr 0.25rem;
+  grid-template-rows: "";
   background-color: #212529;
 }
 .prev-project .pp-container {
-  grid-column: 2/3;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: start;
+  align-items: center;
   margin: 3rem;
 }
 .prev-project .pp-container h3 {
@@ -169,7 +189,7 @@ a {
   grid-column: 2/3;
   grid-row: 1/2;
   margin: 8px 48px 70px;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .grid-footer .cprght {
   grid-column: 2/3;
@@ -228,6 +248,7 @@ a {
 .contact-main .contact-reach {
   display: flex;
   flex-direction: column;
+  justify-content: "";
   align-items: center;
   padding: 5rem 2rem;
 }
@@ -240,8 +261,8 @@ a {
 .contact-main .deal {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 3rem 3rem 0;
   grid-template-rows: 1fr;
+  margin: 3rem 3rem 0;
   padding-bottom: 100px;
 }
 .contact-main .deal h4 {
@@ -252,9 +273,10 @@ a {
 }
 .contact-main .deal .contact-img-flex {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   grid-column: 2/3;
   grid-row: 1/2;
-  justify-content: center;
   align-items: center;
 }
 .contact-main .deal .contact-img-flex #handshake {
@@ -269,6 +291,7 @@ a {
 .reg-bckgnd .reg-head {
   display: flex;
   flex-direction: column;
+  justify-content: "";
   padding: 3rem 0;
   margin: 0 3rem;
   align-items: center;
@@ -303,7 +326,7 @@ a {
   grid-column: 2/3;
 }
 .p-desc .p-desc-text p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   grid-column: 2/3;
 }
 
@@ -317,22 +340,9 @@ a {
 .proj-desc-cont .p-method-item {
   grid-column: 1/2;
 }
-.proj-desc-cont .p-method-item h4 {
-  font-size: 2.5rem;
-  color: #fff;
-  padding: 1rem 0;
-}
 .proj-desc-cont .p-method-item h2 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
-.proj-desc-cont .p-desc-item {
-  grid-column: 2/3;
-}
-.proj-desc-cont .p-desc-item p {
-  font-size: 1.3rem;
-  padding: 1rem 0;
-}
-
 .proj-desc-cont-2 {
   display: grid;
   grid-template-columns: 501px 1fr;
@@ -343,29 +353,17 @@ a {
 .proj-desc-cont-2 .p-method-item {
   grid-column: 1/2;
 }
-.proj-desc-cont-2 .p-method-item h4 {
-  font-size: 2.5rem;
-  color: #fff;
-  padding: 1rem 0;
-}
 .proj-desc-cont-2 .p-method-item h2 {
-  font-size: 43.2px;
+  font-size: 2.5rem;
 }
-.proj-desc-cont-2 .p-desc-item {
-  grid-column: 2/3;
-}
-.proj-desc-cont-2 .p-desc-item p {
-  font-size: 1.3rem;
-  padding: 1rem 0;
-}
-
 .abt-cont {
   padding: 0 1rem;
-  background-color: rgba(33, 37, 41, 0.9529411765);
+  background-color: #212529;
 }
 .abt-cont .flex-abt {
   display: flex;
   flex-direction: column;
+  justify-content: "";
 }
 .abt-cont .flex-abt h1 {
   margin-top: 5rem;
@@ -378,6 +376,7 @@ a {
 }
 .abt-cont .video-pos {
   display: flex;
+  flex-direction: "";
   justify-content: center;
   align-items: center;
 }
@@ -412,13 +411,13 @@ a {
     font-size: 3rem;
   }
   .cont-head aside p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .cont-reach h2 {
     font-size: 2.5rem;
   }
   .cont-reach a p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .cont-reach .reach-right .bi {
     width: 70px;
@@ -445,7 +444,7 @@ a {
   .proj-desc-cont-2 .p-desc-text h1,
   .proj-desc-cont-2 .p-desc-item h1,
   .proj-desc-cont-2 .p-method-item h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .p-desc .p-desc-text h4,
   .p-desc .p-desc-text h2,
@@ -465,7 +464,7 @@ a {
   .proj-desc-cont-2 .p-desc-item h2,
   .proj-desc-cont-2 .p-method-item h4,
   .proj-desc-cont-2 .p-method-item h2 {
-    font-size: 25px;
+    font-size: 1.4rem;
   }
   .p-desc .p-desc-text p,
   .p-desc .p-desc-item p,
@@ -481,10 +480,10 @@ a {
 }
 @media screen and (max-width: 1158px) {
   .cont-head aside h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
   .cont-head aside p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .cont-head .cont-prof {
     height: -moz-fit-content;
@@ -496,10 +495,10 @@ a {
     width: 100%;
   }
   .cont-reach h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .cont-reach a p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .cont-reach .reach-right .bi {
     width: 65px;
@@ -510,7 +509,7 @@ a {
   }
   .abt-cont p,
   .abt-cont a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .reg-bckgnd .reg-head h1 {
     font-size: 3rem;
@@ -537,7 +536,7 @@ a {
     margin: 3rem 1rem;
   }
   .cont-head aside h1 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
   .cont-head aside p {
     font-size: 1rem;
@@ -566,13 +565,13 @@ a {
     height: 50px;
   }
   .grid-footer h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .abt-cont .flex-abt {
     padding-bottom: 3rem;
   }
   .abt-cont h1 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     margin-top: 4rem;
   }
   .abt-cont #video {
@@ -582,7 +581,7 @@ a {
   }
   .abt-cont p,
   .abt-cont a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0;
   }
   .contact-main .contact-reach h1,
@@ -632,7 +631,7 @@ a {
     margin: 0 0 0 1rem;
   }
   .cont-head h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .cont-head p {
     font-size: 0.8rem;
@@ -717,7 +716,7 @@ a {
     text-align: justify;
   }
   .cont-head p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: justify;
     margin-bottom: 2rem;
   }
@@ -742,7 +741,7 @@ a {
     justify-content: space-around;
   }
   .grid-footer h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .grid-footer .footer-icons .bi {
     width: 40px;
@@ -775,7 +774,7 @@ a {
     font-size: 1.4rem;
   }
   .cont-head aside p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .cont-head .cont-prof {
     height: 1fr;
@@ -791,7 +790,7 @@ a {
     font-size: 1.4rem;
   }
   .cont-reach .reach-left p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .cont-reach .reach-right .icon-reach {
     width: 40px;
@@ -835,7 +834,7 @@ a {
     margin: 0 0 0 0.7rem;
   }
   .p-desc .p-desc-text h1 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .p-desc #craft-lab {
     width: 120px;
@@ -843,19 +842,19 @@ a {
   }
   .contact-main .contact-reach h1,
   .contact-main .deal h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .contact-main .contact-reach p,
   .contact-main .contact-reach h4,
   .contact-main .deal p,
   .contact-main .deal h4 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .form-wide .form-container {
     width: 200px;
   }
   .form-wide .form-container .contact-label {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 5px 0;
   }
   .form-wide .form-container .form-box {
@@ -865,12 +864,12 @@ a {
     height: 7rem;
   }
   .form-wide .btn-submit {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .reg-bckgnd .reg-head h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .reg-bckgnd .reg-head p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=estilos.css.map */

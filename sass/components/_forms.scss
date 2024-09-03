@@ -6,8 +6,8 @@
         flex-direction: column;
         width: 350px;
         .contact-label {
-            color: #fff;
-            font-size: 2rem;
+            color: $color-titulos;
+            font-size: nth($font,4 );
             padding: 10px 0;
             font-weight: 600;
         }
